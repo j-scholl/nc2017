@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 24, 2017, 5:23:35 PM
+    Author     : JScholl
+*/
+
+body {
+    border-color:black;
+    border: solid 4px;
+    font-size: 128px;
+    display: table;
+    margin: auto;
+    
+    background-color: rgb(236,124,58);
+    background-image: url("http://www.onu.edu/files/orange_onu_logo_mark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
