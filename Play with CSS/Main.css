@@ -1,0 +1,67 @@
+/* 
+    Created on : Jan 31, 2017, 12:30:03 PM
+    Author     : JScholl
+*/
+body {
+    background: rgba(255,255,0,.2) url("http://vignette2.wikia.nocookie.net/fireemblem/images/e/e4/Pedestal_of_flame.png/revision/latest?cb=20160419081718");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -23%;
+    background-size: 50%;
+}
+
+.box {
+    font-weight: bold;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    vertical-align: bottom;
+}
+
+.description {
+    font-weight: normal;
+    border: 2px solid black;
+    background-color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 0;
+    vertical-align: middle;
+}
+
+#argent {
+    background-image: url("http://vignette2.wikia.nocookie.net/fireemblem/images/3/33/Emerina_Portrait.png/revision/latest/scale-to-width-down/109?cb=20160420100307&format=webp"), linear-gradient(silver,white);
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}
+
+#gules {
+    background-image: url("http://vignette1.wikia.nocookie.net/fireemblem/images/d/d3/BasilioPortrait.png/revision/latest/scale-to-width-down/177?cb=20161025064119&format=webp"), linear-gradient(red,darkorange);
+    position: absolute;
+    left: 10px;
+    top: 500px;
+}
+
+#azure {
+    background-image: url("http://vignette2.wikia.nocookie.net/fireemblem/images/e/e8/PXZ2Tikiportrait.png/revision/latest?cb=20160420090515"),linear-gradient(blue, lightblue);
+    position: absolute;
+    right: 10px;
+    top: 25%;
+}
+
+#vert {
+    background-image: url("http://vignette3.wikia.nocookie.net/fireemblem/images/3/3f/Walhart_portrait.png/revision/latest/scale-to-width-down/184?cb=20151114034243&format=webp"), linear-gradient(green,greenyellow);
+    position: absolute;
+    right: 10px;
+    top: 55%;
+}
+
+#sable {
+
+    background-image: url("http://vignette2.wikia.nocookie.net/fireemblem/images/7/74/Gangrel_Portrait.png/revision/latest/scale-to-width-down/181?cb=20161025064304&format=webp"),linear-gradient(purple, magenta);
+    position: absolute;
+    left: 10px;
+    top: 300px;
+}
